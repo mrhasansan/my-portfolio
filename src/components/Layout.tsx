@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
-import Myimg from "../asset/profi.webp";
+import Myimg from "../assets/profi.webp";
 import { Footer } from "./Footer";
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,7 +43,6 @@ export function Navbar() {
       <main>
         <Outlet />
       </main>
-
       <Footer />
     </>
   );

@@ -1,11 +1,11 @@
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom";
-import { Navbar } from "./components/Navbar";
-import { Projects } from "./page/Projects";
-import { Home } from "./page/Home";
-import { About } from "./page/About";
-import { Contact } from "./page/Contact";
+import { Navbar } from "./components/Layout";
+import { Projects } from "./pages/Projects";
+import { Home } from "./pages/Home";
+import { About } from "./pages/About";
+import { Contact } from "./pages/Contact";
 import { Footer } from "./components/Footer";
-import { ErrorPage } from "./page/ErrorPage";
+import { ErrorPage } from "./pages/ErrorPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
