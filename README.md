@@ -56,7 +56,9 @@ Clone repositori ini ke dalam komputer Anda dengan menjalankan perintah berikut 
 5. Proyek akan dijalankan pada http://localhost:5173.
 
 Kontak
-Jika Anda memiliki pertanyaan atau ingin berdiskusi tentang proyek ini, jangan ragu untuk menghubungi saya melalui email di myemail@example.com atau melalui akun LinkedIn. Terima kasih!
+Jika Anda memiliki pertanyaan atau ingin berdiskusi tentang proyek ini, jangan ragu untuk menghubungi saya melalui email di marufhasansan@gmail.com atau melalui akun https://www.linkedin.com/in/marufhasansan/
+
+Terima kasih!
 
 
 
