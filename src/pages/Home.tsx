@@ -1,5 +1,6 @@
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram, AiFillYoutube } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
+import { Layout } from "../components/Layout";
 export function Home() {
   return (
     <>

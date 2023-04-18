@@ -14,7 +14,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/" className="mr-4 hover:underline md:mr-6">
+                <Link to="/home" className="mr-4 hover:underline md:mr-6">
                   Privacy Policy
                 </Link>
               </li>

@@ -2,7 +2,10 @@ import { useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import Myimg from "../assets/profi.webp";
 import { Footer } from "./Footer";
-export function Navbar() {
+import { Home } from "../pages/Home";
+import { About } from "../pages/About";
+import { Projects } from "../pages/Projects";
+export function Layout() {
   const [isOpen, setIsOpen] = useState(false);
   const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300`;
 
@@ -12,7 +15,7 @@ export function Navbar() {
         <div className="flex  justify-between border-b lg:border-b-0 items-center">
           <div className="flex items-center mx-3 ">
             <img src={Myimg} className="w-14 rounded-full bg-slate-100 me-3 " />
-            <NavLink to={"/"} className="text-xl font-bold  lg:border-b-0 hover:text-teal-500 ">
+            <NavLink to={"/home"} className="text-xl font-bold  lg:border-b-0 hover:text-teal-500 ">
               Ma'ruf Hasan
             </NavLink>
           </div>
@@ -25,7 +28,7 @@ export function Navbar() {
 
         <nav className={`${isOpen ? "block" : "hidden"} lg:flex flex-col lg:flex-row items-center justify-center lg:py-0`}>
           <div className="flex flex-col lg:flex-row w-full">
-            <NavLink to={"/"} className="block px-4 py-3 lg:py-5 font-bold  hover:text-teal-500 text-right border-b">
+            <NavLink to={"/home"} className="block px-4 py-3 lg:py-5 font-bold  hover:text-teal-500 text-right border-b">
               HOME
             </NavLink>
             <NavLink to={"/about"} className="block px-4 py-3 lg:py-5 font-bold hover:text-teal-500 text-right border-b">
